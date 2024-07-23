@@ -57,4 +57,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  stats: {
+    children: true,
+  },
 };
