@@ -1,1 +1,1 @@
-## your awesome game here
+[![Build status](https://ci.appveyor.com/api/projects/status/e377aernan5ekvh7?svg=true)](https://ci.appveyor.com/project/Kateshenyang/dom)
