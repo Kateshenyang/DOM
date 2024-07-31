@@ -1,38 +1,35 @@
-body { 
-    background-color: rgb(255, 228, 196); 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-  }
-  
-  #startButton { 
-    margin-bottom: 20px; 
-    padding: 10px; 
-    font-size: 16px; 
-    cursor: pointer; 
-  } 
-  
-  .game-container {
-    display: grid; 
-    grid-template-columns: repeat(4, 160px); 
-    gap: 10px; 
-    border: 2px solid rgb(216, 216, 216); 
-    padding: 20px; 
-    border-radius: 10px; 
-  
-  } 
-  
-  .hole { 
-    height: 150px; 
-    background: rgb(53, 164, 229);
-    cursor: pointer; 
-    border-radius: 20px; 
-  } 
-  
-  .mole { 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("https://raw.githubusercontent.com/netology-code/ahj-homeworks/AHJ-50/dom/pic/goblin.png");
-  }
+body {
+  background-color: rgb(255, 228, 196);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#startButton, #stopButton {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, 160px);
+  gap: 10px;
+  border: 2px solid rgb(216, 216, 216);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hole {
+  height: 150px;
+  background: rgb(53, 164, 229);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.mole {
+  background-size: 150px;
+  background-image: url("https://raw.githubusercontent.com/netology-code/ahj-homeworks/AHJ-50/dom/pic/goblin.png");
+}
